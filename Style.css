@@ -1,10 +1,9 @@
-body{
-  background-color: eeeee;
-  color: black;
-  font-family: 'arial','verdana',sans-serif;
-     }
+body {
+    background-color: #eeeeee;
+    color: #333333;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
 
-
-td{
-  border: 1px solid black;
-  }
+td {
+    border: 1px solid black;
+}
