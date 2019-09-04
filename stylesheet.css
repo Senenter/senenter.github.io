@@ -71,6 +71,9 @@ h1{
   font-family: "Roboto", sans-serif;
   text-align: center;
   margin: top 275px;
-
-
+  margin: 50vh
+}
+h1{
+  border-style: solid;
+  border-width: thick;
 }
