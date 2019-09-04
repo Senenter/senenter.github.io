@@ -12,8 +12,8 @@ body {
 
 .nav {
   background-color: #1F2833;
-  max-width: 17%;
-  min-width: 100px;
+  max-width: 0%;
+  min-width: 120px;
   flex: 1;
   max-height: 0%;
   min-height: 700px
