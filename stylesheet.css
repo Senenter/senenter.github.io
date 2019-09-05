@@ -39,10 +39,21 @@ header{
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   list-style: none;
-
-
 }
 
+.studiewijzer{
+     float: left;
+     list-style: none;
+     margin-top: 30px;
+}
+
+.studiewijzer li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
 .main-nav li.active a{
   border: 3px solid white;
 
