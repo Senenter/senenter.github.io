@@ -37,7 +37,7 @@ header{
 
 }
 
-.main-nav li.hover a{
+.main-nav li:hover a{
   border: 1px solid white;
 }
 
