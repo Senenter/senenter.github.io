@@ -58,7 +58,7 @@ body{
 
 .hero{
   position: fixed;
-  width: 1200px;
+  width: 1px;
   margin-left: 0;
   margin-top: 0;
 
@@ -77,5 +77,6 @@ h1{
   border-style: solid;
   border-width: thick;
   margin-right: 300px;
+  width: 600px;
 
 }
