@@ -33,12 +33,12 @@ header{
 }
 
 .main-nav li.active a{
-  border: 1px solid white;
+  border: 2px solid white;
 
 }
 
 .main-nav li:hover a{
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 .logo img{
