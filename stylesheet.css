@@ -37,7 +37,7 @@ header{
 
 }
 
-.main-nav li.hover a{
+a:hover{
   border: 1px solid white;
 }
 
@@ -57,7 +57,7 @@ body{
 }
 
 .hero{
-  position: absolute;
+  position: fixed;
   width: 1200px;
   margin-left: 0;
   margin-top: 0;
