@@ -70,7 +70,7 @@ h1{
   font-size: 70px;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: top 300px;
+  margin: top 275px;
   margin: 50vh
 }
 h1{
@@ -78,5 +78,6 @@ h1{
   border-width: thick;
   margin-right: 300px;
   width: 600px;
+  align-items: center;
 
 }
