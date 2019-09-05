@@ -54,6 +54,11 @@ header{
   font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
+
+.studiewijzer li:hover a{
+  border: 3px solid white;
+}
+
 .main-nav li.active a{
   border: 3px solid white;
 
