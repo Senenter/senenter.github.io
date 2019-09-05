@@ -32,6 +32,17 @@ header{
 
 }
 
+.studiewijzer li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  list-style: none;
+
+
+}
+
 .main-nav li.active a{
   border: 3px solid white;
 
@@ -145,9 +156,13 @@ table {
 
 th, td {
   text-align: left;
-  padding: 2px;
+  padding: 4px;
   font-family: "Roboto", sans-serif;
 }
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+  }
 
 tr:nth-child(even){background-color: #f2f2f2}
 tr:nth-child(odd){background-color: #f2f2f2}
