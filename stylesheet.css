@@ -110,12 +110,21 @@ h1{
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: center;
-  
+
 }
 .introduction{
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: center;
+
+}
+
+.introduction{
+  border-style: solid;
+  border-width: thick;
+  margin-right: 300px;
+  width: 300px;
+  align-items: center;
 
 }
