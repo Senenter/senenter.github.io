@@ -115,14 +115,13 @@ h1{
 h1 {
     height: 75px;
     width: 400px;
-
-
-    position: fixed;
+    position: absolute;
     top: 60%;
     left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
+    margin-top: 300px;
+    margin-left: 200px;
 }
+
 
 .list-positive{
   color: white;
@@ -183,9 +182,6 @@ h1 {
 .introduction{
   height: 240px;
   width: 400px;
-
-
-  position: fixed;
   top: 60%;
   left: 50%;
   margin-top: -100px;
