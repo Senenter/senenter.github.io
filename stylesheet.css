@@ -35,7 +35,7 @@ header{
 
 }
 
-.studiewijzer li {
+.studiewijzer li a{
   display: inline-block;
 }
 
@@ -110,16 +110,15 @@ h1{
   border-style: solid;
   border-width: thick;
   margin-right: 300px;
-  width: 600px;
 
 }
 
 h1 {
-    height: 75px;
     width: 400px;
-    position: absolute;
+    position: fixed;
     left: 50%;
     margin-top: 400px;
+    margin-left: -200px;
 }
 
 
