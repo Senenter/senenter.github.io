@@ -177,6 +177,18 @@ h1 {
     width: 50%;
 }
 
+.introduction{
+  height: 240px;
+  width: 400px;
+
+
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
 table {
   border-collapse: collapse;
   width: 80%;
