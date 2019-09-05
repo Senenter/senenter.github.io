@@ -5,7 +5,7 @@
 
 header{
    background-image: url(https://i.imgur.com/jixQTnH.jpg);
-   height: 10000px;
+   height: 1000px;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -115,8 +115,6 @@ h1{
 h1 {
     height: 75px;
     width: 400px;
-
-
     position: fixed;
     top: 60%;
     left: 50%;
