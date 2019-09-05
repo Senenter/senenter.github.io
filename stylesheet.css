@@ -81,3 +81,33 @@ h1{
   width: 600px;
 
 }
+
+.list-positive{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.header-positive{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.list-negative{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.header-negative{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
