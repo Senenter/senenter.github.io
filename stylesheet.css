@@ -169,19 +169,16 @@ h1 {
 }
 
 .introduction{
-  left: 0;
     line-height: 30px;
-    margin-top: -150px;
     position: absolute;
     text-align: center;
-    top: 45%;
     width: 50%;
 }
 
 .introduction{
   height: 240px;
   width: 400px;
-  top: 60%;
+  top: 49%;
   left: 50%;
   margin-top: -100px;
   margin-left: -200px;
