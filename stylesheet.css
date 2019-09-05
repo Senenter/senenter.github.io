@@ -35,6 +35,10 @@ header{
 
 }
 
+.studiewijzer li {
+  display: inline-block;
+}
+
 .studiewijzer li a{
   color: white;
   text-decoration: none;
@@ -100,8 +104,6 @@ h1{
   font-size: 70px;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: top 275px;
-  margin: 50vh;
 }
 
 h1{
@@ -116,10 +118,8 @@ h1 {
     height: 75px;
     width: 400px;
     position: absolute;
-    top: 60%;
     left: 50%;
-    margin-top: 300px;
-    margin-left: 200px;
+    margin-top: 400px;
 }
 
 
