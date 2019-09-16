@@ -5,7 +5,7 @@
 
 header {
   background-image: url(https://i.imgur.com/jixQTnH.jpg);
-  height: 2000px;
+  height: 5000px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,6 +28,27 @@ header {
   padding: 5px 20px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
+}
+
+.sources li a{
+  display: inline-block;
+}
+
+.sources li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.sources li:hover a {
+  border: 3px solid white;
 }
 
 .studiewijzer li a {
@@ -181,7 +202,7 @@ text-align: center;
 }
 
 .motivation{
-  height: 1350px;
+  height: 2000px;
   width: 500px;
   top: 60%;
   left: 43%;
