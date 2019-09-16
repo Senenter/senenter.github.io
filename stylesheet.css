@@ -163,6 +163,9 @@ text-align: center;
   border-width: thick;
   margin-right: 300px;
   width: 300px;
+  background-color: #000000;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .motivation{
@@ -186,6 +189,8 @@ text-align: center;
   border-width: thick;
   margin-right: 300px;
   width: 300px;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .hero {
