@@ -175,7 +175,7 @@ text-align: center;
 
 .motivation{
   line-height: 30px;
-  position: fixed;
+  position: absolute;
   text-align: center;
   width: 50%;
 }
@@ -186,7 +186,7 @@ text-align: center;
   top: 60%;
   left: 43%;
   margin-top: -100px;
-  margin-left: auto px;
+  margin-left: -200px;
 }
 
 .hero {
