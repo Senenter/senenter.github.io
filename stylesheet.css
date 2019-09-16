@@ -1,42 +1,40 @@
-*{
-    margin: 0;
-    ppadding: 0;
+* {
+  margin: 0;
+  ppadding: 0;
 }
 
-header{
-   background-image: url(https://i.imgur.com/jixQTnH.jpg);
-   height: 2000px;
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-
-}
-.main-nav{
-     float: right;
-     list-style: none;
-     margin-top: 30px;
+header {
+  background-image: url(https://i.imgur.com/jixQTnH.jpg);
+  height: 2000px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
 
-.main-nav li{
+.main-nav li {
   display: inline-block;
 }
 
-.main-nav li a{
+.main-nav li a {
   color: white;
   text-decoration: none;
   padding: 5px 20px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-
 }
 
-.studiewijzer li a{
+.studiewijzer li a {
   display: inline-block;
 }
 
-.studiewijzer li a{
+.studiewijzer li a {
   color: white;
   text-decoration: none;
   padding: 5px 20px;
@@ -45,13 +43,13 @@ header{
   list-style: none;
 }
 
-.studiewijzer{
-     float: left;
-     list-style: none;
-     margin-top: 30px;
+.studiewijzer {
+  float: left;
+  list-style: none;
+  margin-top: 30px;
 }
 
-.studiewijzer li a{
+.studiewijzer li a {
   color: white;
   text-decoration: none;
   padding: 5px 20px;
@@ -59,43 +57,41 @@ header{
   font-size: 15px;
 }
 
-.studiewijzer li:hover a{
+.studiewijzer li:hover a {
   border: 3px solid white;
 }
 
-.main-nav li.active a{
-  border: 3px solid white;
-
-}
-
-.main-nav li:hover a{
+.main-nav li.active a {
   border: 3px solid white;
 }
 
-.logo img{
+.main-nav li:hover a {
+  border: 3px solid white;
+}
+
+.logo img {
   width: 150px;
   height: auto;
   float: left;
 }
 
-body{
+body {
   font-family: monospace;
 }
 
-.row{
+.row {
   max-width: 1200px;
   margin: auto;
 }
 
-.hero{
+.hero {
   position: fixed;
   width: 500px;
   margin-left: 0;
-  margin-top: 0;
-
+  margin-top:0;
 }
 
-.list-positive{
+.list-positive {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
@@ -103,14 +99,14 @@ body{
   text-align: center;
 }
 
-.header-positive{
+.header-positive {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: center;
 }
 
-.list-negative{
+.list-negative {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
@@ -118,37 +114,35 @@ body{
   text-align: center;
 }
 
-.header-negative{
+.header-negative {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: center;
-
 }
-.introduction{
+
+.introduction {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: center;
-
 }
 
-.introduction{
+.introduction {
   border-style: solid;
   border-width: thick;
   margin-right: 300px;
   width: 300px;
-
 }
 
-.introduction{
-    line-height: 30px;
-    position: absolute;
-    text-align: center;
-    width: 50%;
+.introduction {
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
 }
 
-.introduction{
+.introduction {
   height: 240px;
   width: 400px;
   top: 49%;
@@ -157,33 +151,59 @@ body{
   margin-left: -200px;
 }
 
+.motivation{
+  color: white;
+font-family: "Roboto", sans-serif;
+font-size: 15px;
+text-align: center;
+}
 
-.hero{
+.motivation{
   border-style: solid;
   border-width: thick;
   margin-right: 300px;
   width: 300px;
-
 }
 
-.hero{
+.motivation{
   line-height: 30px;
   position: absolute;
   text-align: center;
   width: 50%;
-
 }
 
-.hero{
-  height: 35px;
+.motivation{
+  height: 240px;
   width: 400px;
   top: 49%;
   left: 50%;
   margin-top: -100px;
   margin-left: -200px;
-  color: white !important;
-  font-family: "Roboto" ,sans-serif;
+}
 
+.hero {
+  border-style: solid;
+  border-width: thick;
+  margin-right: 300px;
+  width: 300px;
+}
+
+.hero {
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  width: %;
+}
+
+.hero {
+  height: 40px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+  color: white !important;
+  font-family: "Roboto", sans-serif;
 }
 
 table {
@@ -196,15 +216,22 @@ th, td {
   padding: 4px;
   font-family: "Roboto", sans-serif;
 }
-table.center {
-    margin-left:auto;
-    margin-right:auto;
-  }
 
-tr:nth-child(even){background-color: #f2f2f2}
-tr:nth-child(odd){background-color: #f2f2f2}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2
+}
 
 th {
-  background-color: rgb(248, 207, 83);;
+  background-color: rgb(248, 207, 83);
+  ;
   color: white;
 }
