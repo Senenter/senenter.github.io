@@ -5,7 +5,7 @@
 
 header {
   background-image: url(https://i.imgur.com/jixQTnH.jpg);
-  height: 5000px;
+  height: 6000px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -315,8 +315,40 @@ text-align: center;
 
 
 
+  .carriere{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    }
 
 
+
+  .carriere{
+    border-style: solid;
+    border-width: thick;
+    margin-right: 300px;
+    width: 300px;
+    background-color: #000000;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .carriere{
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+  }
+
+  .carriere{
+    height: 650px;
+    width: 500px;
+    top: 540%;
+    left: 43%;
+    margin-top: -100px;
+    margin-left: -200px;
+  }
 
 
 
