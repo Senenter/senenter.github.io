@@ -34,11 +34,6 @@ header {
   display: inline-block;
 }
 
-.bronnen{
-  display: inline-block;
-
-}
-
 .sources li a {
   color: white;
   text-decoration: none;
@@ -208,7 +203,7 @@ body {
 .motivation {
   height: 1520px;
   width: 500px;
-  top: 60%;
+  top: 63%;
   left: 43%;
   margin-top: -100px;
   margin-left: -200px;
@@ -242,7 +237,7 @@ body {
 .puzzle {
   height: 550px;
   width: 500px;
-  top: 250%;
+  top: 320%;
   left: 43%;
   margin-top: -100px;
   margin-left: -200px;
@@ -276,7 +271,7 @@ body {
 .software {
   height: 930px;
   width: 500px;
-  top: 325%;
+  top: 425%;
   left: 43%;
   margin-top: -100px;
   margin-left: -200px;
@@ -310,7 +305,7 @@ body {
 .prestatie {
   height: 700px;
   width: 500px;
-  top: 445%;
+  top: 590%;
   left: 43%;
   margin-top: -100px;
   margin-left: -200px;
@@ -344,7 +339,7 @@ body {
 .carriere {
   height: 660px;
   width: 500px;
-  top: 540%;
+  top: 715%;
   left: 43%;
   margin-top: -100px;
   margin-left: -200px;
@@ -378,7 +373,7 @@ body {
 .conclusie {
   height: 470px;
   width: 500px;
-  top: 630%;
+  top: 835%;
   left: 43%;
   margin-top: -100px;
   margin-left: -200px;
@@ -412,13 +407,11 @@ body {
 .bronnen {
   height: 670px;
   width: 500px;
-  top: 695%;
+  top: 925%;
   left: 43%;
   margin-top: -100px;
   margin-left: -200px;
 }
-
-
 
 .hero {
   border-style: solid;
