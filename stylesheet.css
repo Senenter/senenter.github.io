@@ -350,6 +350,50 @@ text-align: center;
     margin-left: -200px;
   }
 
+  .conclusie{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    }
+
+
+
+  .conclusie{
+    border-style: solid;
+    border-width: thick;
+    margin-right: 300px;
+    width: 300px;
+    background-color: #000000;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .conclusie{
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+  }
+
+  .conclusie{
+    height: 650px;
+    width: 500px;
+    top: 630%;
+    left: 43%;
+    margin-top: -100px;
+    margin-left: -200px;
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 .hero {
