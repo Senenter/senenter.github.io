@@ -154,7 +154,7 @@ body {
   border-width: thick;
   margin-right: 300px;
   width: 300px;
-  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgb(204, 204, 204);
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -203,7 +203,7 @@ text-align: center;
 
 
 .motivation{
-  height: 2000px;
+  height: 1520px;
   width: 500px;
   top: 60%;
   left: 43%;
@@ -211,12 +211,121 @@ text-align: center;
   margin-left: -200px;
 }
 
+.puzzle{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.puzzle{
+  border-style: solid;
+  border-width: thick;
+  margin-right: 300px;
+  width: 300px;
+  background-color: #000000;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.puzzle{
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+}
+
+.puzzle{
+  height: 550px;
+  width: 500px;
+  top: 250%;
+  left: 43%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+.software{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  }
+
+  .software{
+    border-style: solid;
+    border-width: thick;
+    margin-right: 300px;
+    width: 300px;
+    background-color: #000000;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .software{
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+  }
+
+  .software{
+    height: 930px;
+    width: 500px;
+    top: 325%;
+    left: 43%;
+    margin-top: -100px;
+    margin-left: -200px;
+  }
+
+  .prestatie{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    }
+
+
+
+  .prestatie{
+    border-style: solid;
+    border-width: thick;
+    margin-right: 300px;
+    width: 300px;
+    background-color: #000000;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .prestatie{
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+  }
+
+  .prestatie{
+    height: 700px;
+    width: 500px;
+    top: 445%;
+    left: 43%;
+    margin-top: -100px;
+    margin-left: -200px;
+  }
+
+
+
+
+
+
+
+
+
 .hero {
   border-style: solid;
   border-width: thick;
   margin-right: 300px;
   width: 300px;
-  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgb(204, 204, 204);
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -224,7 +333,7 @@ text-align: center;
   line-height: 35px;
   position: absolute;
   text-align: center;
-  width: %;
+
 }
 
 .hero {
