@@ -5,7 +5,7 @@
 
 header {
   background-image: url(https://i.imgur.com/jixQTnH.jpg);
-  height: 6000px;
+  height: 6500px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,21 +30,25 @@ header {
   font-size: 15px;
 }
 
-.sources li a{
+.sources li a {
   display: inline-block;
 }
 
-.sources li a{
+.bronnen{
+  display: inline-block;
+
+}
+
+.sources li a {
   color: white;
   text-decoration: none;
   padding: 5px 20px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .sources li:hover a {
@@ -109,7 +113,7 @@ body {
   position: fixed;
   width: 500px;
   margin-left: 0;
-  margin-top:0;
+  margin-top: 0;
 }
 
 .list-positive {
@@ -174,35 +178,34 @@ body {
   margin-left: -200px;
   top: 50%;
   left: 50%;
-
 }
 
-.motivation{
-color: white;
-font-family: "Roboto", sans-serif;
-font-size: 15px;
-text-align: center;
+.motivation {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
 }
 
-.motivation{
+.motivation {
   border-style: solid;
   border-width: thick;
   margin-right: 300px;
   width: 300px;
   background-color: #000000;
-  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
   background: rgba(0, 0, 0, 0.8);
 }
 
-.motivation{
+.motivation {
   line-height: 30px;
   position: absolute;
   text-align: center;
   width: 50%;
 }
 
-
-.motivation{
+.motivation {
   height: 1520px;
   width: 500px;
   top: 60%;
@@ -211,31 +214,32 @@ text-align: center;
   margin-left: -200px;
 }
 
-.puzzle{
+.puzzle {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: center;
 }
 
-.puzzle{
+.puzzle {
   border-style: solid;
   border-width: thick;
   margin-right: 300px;
   width: 300px;
   background-color: #000000;
-  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
   background: rgba(0, 0, 0, 0.8);
 }
 
-.puzzle{
+.puzzle {
   line-height: 30px;
   position: absolute;
   text-align: center;
   width: 50%;
 }
 
-.puzzle{
+.puzzle {
   height: 550px;
   width: 500px;
   top: 250%;
@@ -244,155 +248,175 @@ text-align: center;
   margin-left: -200px;
 }
 
-.software{
+.software {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: center;
-  }
+}
 
-  .software{
-    border-style: solid;
-    border-width: thick;
-    margin-right: 300px;
-    width: 300px;
-    background-color: #000000;
-    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-    background: rgba(0, 0, 0, 0.8);
-  }
+.software {
+  border-style: solid;
+  border-width: thick;
+  margin-right: 300px;
+  width: 300px;
+  background-color: #000000;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.8);
+}
 
-  .software{
-    line-height: 30px;
-    position: absolute;
-    text-align: center;
-    width: 50%;
-  }
+.software {
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+}
 
-  .software{
-    height: 930px;
-    width: 500px;
-    top: 325%;
-    left: 43%;
-    margin-top: -100px;
-    margin-left: -200px;
-  }
+.software {
+  height: 930px;
+  width: 500px;
+  top: 325%;
+  left: 43%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
 
-  .prestatie{
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    text-align: center;
-    }
+.prestatie {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
 
+.prestatie {
+  border-style: solid;
+  border-width: thick;
+  margin-right: 300px;
+  width: 300px;
+  background-color: #000000;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.8);
+}
 
+.prestatie {
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+}
 
-  .prestatie{
-    border-style: solid;
-    border-width: thick;
-    margin-right: 300px;
-    width: 300px;
-    background-color: #000000;
-    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-    background: rgba(0, 0, 0, 0.8);
-  }
+.prestatie {
+  height: 700px;
+  width: 500px;
+  top: 445%;
+  left: 43%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
 
-  .prestatie{
-    line-height: 30px;
-    position: absolute;
-    text-align: center;
-    width: 50%;
-  }
+.carriere {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
 
-  .prestatie{
-    height: 700px;
-    width: 500px;
-    top: 445%;
-    left: 43%;
-    margin-top: -100px;
-    margin-left: -200px;
-  }
+.carriere {
+  border-style: solid;
+  border-width: thick;
+  margin-right: 300px;
+  width: 300px;
+  background-color: #000000;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.8);
+}
 
+.carriere {
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+}
 
+.carriere {
+  height: 660px;
+  width: 500px;
+  top: 540%;
+  left: 43%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
 
+.conclusie {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
 
-  .carriere{
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    text-align: center;
-    }
+.conclusie {
+  border-style: solid;
+  border-width: thick;
+  margin-right: 300px;
+  width: 300px;
+  background-color: #000000;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.8);
+}
 
+.conclusie {
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+}
 
+.conclusie {
+  height: 470px;
+  width: 500px;
+  top: 630%;
+  left: 43%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
 
-  .carriere{
-    border-style: solid;
-    border-width: thick;
-    margin-right: 300px;
-    width: 300px;
-    background-color: #000000;
-    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-    background: rgba(0, 0, 0, 0.8);
-  }
+.bronnen {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
 
-  .carriere{
-    line-height: 30px;
-    position: absolute;
-    text-align: center;
-    width: 50%;
-  }
+.bronnen {
+  border-style: solid;
+  border-width: thick;
+  margin-right: 300px;
+  width: 300px;
+  background-color: #000000;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.8);
+}
 
-  .carriere{
-    height: 650px;
-    width: 500px;
-    top: 540%;
-    left: 43%;
-    margin-top: -100px;
-    margin-left: -200px;
-  }
+.bronnen {
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+}
 
-  .conclusie{
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    text-align: center;
-    }
-
-
-
-  .conclusie{
-    border-style: solid;
-    border-width: thick;
-    margin-right: 300px;
-    width: 300px;
-    background-color: #000000;
-    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-    background: rgba(0, 0, 0, 0.8);
-  }
-
-  .conclusie{
-    line-height: 30px;
-    position: absolute;
-    text-align: center;
-    width: 50%;
-  }
-
-  .conclusie{
-    height: 650px;
-    width: 500px;
-    top: 630%;
-    left: 43%;
-    margin-top: -100px;
-    margin-left: -200px;
-  }
-
-
-
-
-
-
-
-
-
+.bronnen {
+  height: 670px;
+  width: 500px;
+  top: 695%;
+  left: 43%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
 
 
 
@@ -409,7 +433,6 @@ text-align: center;
   line-height: 35px;
   position: absolute;
   text-align: center;
-
 }
 
 .hero {
